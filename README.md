@@ -5,7 +5,7 @@
 The objective of this analysis is to understand how casual riders and annual members use Cyclistic bikes differently. This insight will support the marketing team in designing data-driven strategies at converting casual riders into annual members, which is key to the company’s future growth.
 
 ## Stakeholders
-- Lily Moreno, Director of Marketing Department
+- Director of Marketing Department
 - Cyclistic Marketing Analytics Team
 - Cyclistic Executive Team
 
