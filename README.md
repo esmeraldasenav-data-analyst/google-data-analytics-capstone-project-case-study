@@ -1,8 +1,8 @@
-# Cyclistic Bike-Share case study
+# Cyclistic Bike-Share Case Study
 ### Google Data Analytics Capstone Project
 
 ## Business Task
-The objective of this analysis is to understand how casual riders and annual members use Cyclistic bikes differently. This insight will support the marketing team in designing data-driven strategies at converting one time riders into annual members, this is key for the company future growth. 
+The objective of this analysis is to understand how casual riders and annual members use Cyclistic bikes differently. This insight will support the marketing team in designing data-driven strategies at converting casual riders into annual members, which is key to the company’s future growth.
 
 ## Stakeholders
 - Lily Moreno, Director of Marketing Department
@@ -11,9 +11,9 @@ The objective of this analysis is to understand how casual riders and annual mem
 
 ## Data Source 
 The analysis uses Cyclistic historical bike trips data made publicly available by Motivate International Inc. 
-For this case study, data from February to May 2025 was selected. Each month was provided as a separate csv file and uploaded into BigQuery as individual tables. 
+For this case study, data from February to May 2025 was selected. Each month was provided as a separate CSV file and uploaded into BigQuery as individual tables. 
 
-The datasets include trip-level information such as ride start and end times, station details, bike type and rider category (casual or member). No personally indentifiable information is included in the data. 
+The datasets include trip-level information such as ride start and end times, station details, bike type and rider category (casual or member). No personally identifiable information is included in the data. 
 
 ## Data Limitations
 Due to platform upload limitations, the analysis was conducted using four months of data instead of a full year. 
