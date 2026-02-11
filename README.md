@@ -35,7 +35,7 @@ A cleaned view was created to include only trips with positive ride duration. Th
 Casual riders have an average ride duration of approximately 22 minutes, while annual members average approximately 11 minutes per ride.
 
 This indicates that casual riders take rides nearly twice as long as members, reinforcing the hypothesis that casual usage is primarily recreational, while member usage is more routine and commute-oriented.
-![Average Ride Length](avg_ride_length.png)
+![Average Ride Length](descarga/avg_ride_length.png)
 
 ## Usage Patterned by Day of the Week 
 Analysis of ride frequency by day of the week reveals clear behavioral differences between rider types.
