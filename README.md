@@ -84,3 +84,18 @@ In contrast, casual riders exhibit longer ride durations, increased weekend acti
 These findings highlight a strategic opportunity to convert high-engagement casual riders into annual members through targeted weekend promotions, group-based incentives, and behavior-driven upgrade campaigns.
 By leveraging data-driven insights, Cyclistic can design focused marketing strategies that align with actual rider behavior and maximize long-term membership growth.
 
+## Key SQL Techniques Used
+
+The analysis involved the following SQL techniques:
+
+- UNION ALL to combine multiple monthly datasets
+- CREATE TABLE and CREATE VIEW for structured data transformation
+- TIMESTAMP_DIFF to calculate ride duration
+- EXTRACT to analyze hourly usage patterns
+- Aggregate functions such as COUNT() and AVG()
+- GROUP BY to segment rider behavior
+- Data filtering to remove invalid ride records
+
+
+
+
