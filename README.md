@@ -1,9 +1,8 @@
-# Google Data Analytics Capstone Project
-
 # Cyclistic Bike-Share case study
+Google Data Analytics Capstone Project
 
 ## Business Task
-The objective of this analysis is to understand how casual riders and riders with annual memberships use Cyclistic bikes differently. This insight will supportthe marketing team in designing data-driven strategies at converting one time riders into annual members, this is key for the company future growth. 
+The objective of this analysis is to understand how casual riders and riders with annual memberships use Cyclistic bikes differently. This insight will support the marketing team in designing data-driven strategies at converting one time riders into annual members, this is key for the company future growth. 
 
 ## Stakeholders
 - Lily Moreno, Director of Marketing Department
@@ -20,11 +19,45 @@ The datasets include trip-level information such as ride start and end times, st
 Due to platform upload limitations, the analysis was conducted using four months of data instead of a full year. 
 Despite this limitation, the selected data provides sufficient volume and variability to identify usage patterns between casual riders and annual members. 
 
-## Process (Data Cleaning)
-
+## Data Processing and Cleaning
 The data was processed using Google BigQuery. A combined table was created by merging four monthly datasets (February–May 2025) using UNION ALL.
 To ensure data quality, a new calculated field called `ride_length_minutes` was created by calculating the difference between `ended_at` and `started_at`.
 Trips with zero or negative ride duration were identified as invalid records. A total of 29,546 invalid trips (approximately 2.2% of the dataset) were excluded from the analysis.
 
 A cleaned view was created to include only trips with positive ride duration. This cleaned dataset was used for all subsequent analysis.
+
+## Usage Patterned by Day of the Week 
+Analysis of ride frequency by day of the week reveals clear behavioral differences between rider types.
+Annual members show significantly higher usage during weekdays, particularly Tuesday and Thursday, suggesting commuting or routine transportation patterns.
+
+Casual riders demonstrate increased activity during weekends, especially Saturday, indicating more recreational or leisure-based usage.
+
+## Usage Patterns by Hour of Day
+Analysis by hour of day shows that both rider types experience peak usage between 4 PM and 6 PM.
+However, annual members demonstrate significantly higher trip volumes during these hours, particularly at 5 PM. This pattern strongly suggests commuting behavior.
+
+Casual riders also increase activity in the late afternoon, but at a much lower intensity, indicating more flexible or leisure-based usage patterns.
+
+## Bike Type Usage
+Both annual members and casual riders show a strong preference for electric bikes over classic bikes.
+The proportional distribution of bike type usage is similar across both rider categories, indicating that bike type preference is not a primary differentiating factor between casual riders and annual members.
+
+## Ride Duration by Day of Week
+Casual riders consistently demonstrate longer ride durations across all days of the week compared to annual members.
+Annual members maintain a stable average ride duration between 10 and 12 minutes, reinforcing a commuting or routine transportation pattern.
+
+Casual riders show significantly longer ride durations, particularly on weekends, where average rides exceed 25 minutes. This further supports the conclusion that casual riders primarily use the service for leisure and recreational purposes.
+
+## Recommendations
+Based on the analysis, the following strategies are recommended:
+
+1. Weekend Membership Promotion  
+Since casual riders demonstrate higher activity and longer ride durations during weekends, offering discounted annual memberships on Saturdays and Sundays could effectively target high-engagement users.
+
+2. Group Subscription Incentives  
+Given the recreational usage patterns of casual riders, introducing group-based membership promotions (e.g., discounts for multiple sign-ups) may encourage social conversions and increase membership adoption.
+
+3. Behavior-Based Upgrade Campaigns  
+Casual riders with longer ride durations or repeated weekend usage could be targeted with personalized upgrade offers, leveraging behavioral data to increase conversion likelihood.
+
 
