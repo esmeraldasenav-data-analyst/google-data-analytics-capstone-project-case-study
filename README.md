@@ -42,15 +42,14 @@ Analysis of ride frequency by day of the week reveals clear behavioral differenc
 Annual members show significantly higher usage during weekdays, particularly Tuesday and Thursday, suggesting commuting or routine transportation patterns.
 
 Casual riders demonstrate increased activity during weekends, especially Saturday, indicating more recreational or leisure-based usage.
-![Ride Frequency by Day of Week](rides_by_day.png)
-
+![Ride Frequency by Day of Week](rides_by_day.png.png)
 
 ## Usage Patterns by Hour of Day
 Analysis by hour of day shows that both rider types experience peak usage between 4 PM and 6 PM.
 However, annual members demonstrate significantly higher trip volumes during these hours, particularly at 5 PM. This pattern strongly suggests commuting behavior.
 
 Casual riders also increase activity in the late afternoon, but at a much lower intensity, indicating more flexible or leisure-based usage patterns.
-![Ride Frequency by Hour](rides_by_hour.png)
+![Ride Frequency by Hour](rides_by_hour.png.png)
 
 ## Bike Type Usage
 Both annual members and casual riders show a strong preference for electric bikes over classic bikes.
@@ -61,7 +60,7 @@ Casual riders consistently demonstrate longer ride durations across all days of 
 Annual members maintain a stable average ride duration between 10 and 12 minutes, reinforcing a commuting or routine transportation pattern.
 
 Casual riders show significantly longer ride durations, particularly on weekends, where average rides exceed 25 minutes. This further supports the conclusion that casual riders primarily use the service for leisure and recreational purposes.
-![Average Ride Duration by Day](duration_by_day.png)
+![Average Ride Duration by Day](duration_by_day.png.png)
 
 ## Recommendations
 Based on the analysis, the following strategies are recommended:
